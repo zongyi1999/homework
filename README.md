@@ -95,6 +95,12 @@ MAX_PIXELS=602112 CUDA_VISIBLE_DEVICES=1 swift sft \
 
 模型路径：https://share.weiyun.com/gkGMApk0
 
+运行：
+
+```
+MAX_PIXELS=602112 CUDA_VISIBLE_DEVICES=1 python infer_model.py
+```
+
 
 
 
@@ -167,5 +173,6 @@ print(f"划拳总图片数量: {total_images_1}")
 print(f"划拳匹配的图片数量: {total_images_1}")
 print(f"划拳准确率: {accuracy_1:.2%}")
 ```
-准确率
+准确率：
+
 ![image-20230730112942405](acc.png)

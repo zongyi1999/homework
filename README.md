@@ -1,17 +1,44 @@
 ### 数据集介绍
 收集了0-10手势图片xx张，分别用0_x;1_x 2_x;3_x表示：
 
-手势1：
-<img src="./train/0.jpg" alt="image-20230730112942405" style="zoom:25%;" />
+手势0：
 
-手势2：
-<img src="./train/1.jpg" alt="image-20230730112942405" style="zoom:25%;" />
+<img src="./train/0.jpg" alt="image-20230730112942405" style="zoom:5%;" />
+
+
+
+手势1：
+
+<img src="./train/1.jpg" alt="image-20230730112942405" style="zoom:5%;" />
+
+
+
+手势2 / 剪刀：
+
+<img src="./train/2.jpg" alt="image-20230730112942405" style="zoom:5%;" />
 
 手势3：
-<img src="./train/2.jpg" alt="image-20230730112942405" style="zoom:25%;" />
-手势4：
 
-<img src="./train/3.jpg" alt="image-20230730112942405" style="zoom:25%;" />
+
+
+<img src="./train/3.jpg" alt="image-20230730112942405" style="zoom:20%;" />
+
+
+
+
+
+手势5/ 布：
+
+
+
+<img src="./train/5.jpg" alt="image-20230730112942405" style="zoom:5%;" />
+
+
+
+
+
+
+
 
 
 由于其中10，2, 5数字的手势和图片一样，因此也将他们作为石头，剪刀布的训练和测试图片；
@@ -36,7 +63,21 @@
 {"query": "<image>请问图片中的手势表示的是“石头，剪刀，布”中的哪一种？", "response": "剪刀", "images": ["/media/sdd/lzy/mllm/train/2.jpg"]}
 ```
 
+模型基于swift框架
+
+```
+# Full capabilities
+pip install 'ms-swift[all]' -U
+# LLM only
+pip install 'ms-swift[llm]' -U
+# AIGC only
+pip install 'ms-swift[aigc]' -U
+# Adapters only
+pip install ms-swift -U
+```
+
 Instruct tuning 训练代码：
+
 ```
 MAX_PIXELS=602112 CUDA_VISIBLE_DEVICES=1 swift sft \
   --model_type qwen2-vl-7b-instruct \
@@ -47,6 +88,10 @@ MAX_PIXELS=602112 CUDA_VISIBLE_DEVICES=1 swift sft \
 ```
 
 推理和评测代码：
+
+模型路径：https://share.weiyun.com/gkGMApk0
+
+
 
 
 ```python

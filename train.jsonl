@@ -1,0 +1,15 @@
+{"query": "<image>请问图片中表示的是0-10中的哪一个手势？", "response": "0", "images": ["/media/sdd/lzy/mllm/train/0.jpg"]}
+{"query": "<image>请问图片中表示的是0-10中的哪一个手势？", "response": "1", "images": ["/media/sdd/lzy/mllm/train/1.jpg"]}
+{"query": "<image>请问图片中表示的是0-10中的哪一个手势？", "response": "2", "images": ["/media/sdd/lzy/mllm/train/2.jpg"]}
+{"query": "<image>请问图片中表示的是0-10中的哪一个手势？", "response": "3", "images": ["/media/sdd/lzy/mllm/train/3.jpg"]}
+{"query": "<image>请问图片中表示的是0-10中的哪一个手势？", "response": "4", "images": ["/media/sdd/lzy/mllm/train/4.jpg"]}
+{"query": "<image>请问图片中表示的是0-10中的哪一个手势？", "response": "5", "images": ["/media/sdd/lzy/mllm/train/5.jpg"]}
+{"query": "<image>请问图片中表示的是0-10中的哪一个手势？", "response": "6", "images": ["/media/sdd/lzy/mllm/train/6_1.jpg"]}
+{"query": "<image>请问图片中表示的是0-10中的哪一个手势？", "response": "7", "images": ["/media/sdd/lzy/mllm/train/7.jpg"]}
+{"query": "<image>请问图片中表示的是0-10中的哪一个手势？", "response": "8", "images": ["/media/sdd/lzy/mllm/train/8.jpg"]}
+{"query": "<image>请问图片中表示的是0-10中的哪一个手势？", "response": "9", "images": ["/media/sdd/lzy/mllm/train/9.jpg"]}
+{"query": "<image>请问图片中表示的是0-10中的哪一个手势？", "response": "10", "images": ["/media/sdd/lzy/mllm/train/10.jpg"]}
+{"query": "<image>请问图片中的手势表示的是“石头，剪刀，布”中的哪一种？", "response": "石头", "images": ["/media/sdd/lzy/mllm/train/10.jpg"]}
+{"query": "<image>请问图片中的手势表示的是“石头，剪刀，布”中的哪一种？", "response": "布", "images":   ["/media/sdd/lzy/mllm/train/5.jpg"]}
+{"query": "<image>请问图片中的手势表示的是“石头，剪刀，布”中的哪一种？", "response": "剪刀", "images": ["/media/sdd/lzy/mllm/train/2.jpg"]}
+
